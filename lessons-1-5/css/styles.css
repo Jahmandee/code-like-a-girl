@@ -1,0 +1,149 @@
+h1 {
+  color: #bf78de;
+  font-size: 60px;
+}
+
+h2 {
+  color: #4e937a;
+  font-size: 40px;
+  font-family: "playfair Display", serif;
+}
+
+h3 {
+  color: #000fd394;
+  /* text-decoration: underline;  */
+}
+
+.pink-heading {
+  color: pink;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+img {
+  border-radius: 50%;
+  padding: 15px;
+  margin: 20px;
+}
+
+.home-image {
+  margin: 0px;
+  padding: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.home-image:hover {
+  width: 100px;
+  height: 100px;
+  transition: all 2s;
+}
+
+ul {
+  color: grey;
+  font-family: sans serif;
+}
+
+a:hover {
+  color: #99d6bf;
+  transition: all 2s;
+}
+
+a:active {
+  /* text-decoration: underline; */
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot,
+td {
+  padding: 16px;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+strong {
+  color: hotpink;
+}
+
+em {
+  /* display: block */
+}
+
+.container {
+  border: 3px solid navy;
+  background-color: hotpink;
+  padding: 20px;
+  display: block;
+  margin: 10px;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 15px;
+  /* display: inline-block; */
+}
+
+#mainContainer {
+  border: 10px solid red;
+  background-image: url(../brooke-cagle--uHVRvDr7pg-unsplash.jpg);
+  padding: 50px;
+  margin: 10px;
+}
+
+#section-1 {
+  background-color: pink;
+}
+
+#section-2 {
+  background-color: cornflowerblue;
+}
+
+.special-paragraph {
+  color: blue;
+}
+
+#second-container {
+  border: 10px;
+  background-image: url(../pink\ hearts.jpeg);
+  padding: 50px;
+  margin: 10px;
+}
+
+#third-container {
+  border: 10px;
+  background-image: url(../Business-Lego-Recycled-459256805.jpeg);
+  padding: 50px;
+  margin: 10px;
+  position: relative;
+  left: 10px;
+}
+
+#section-1 em {
+  background-color: #4e937a;
+}
+
+#section-1 > p {
+  background-color: #bf78de;
+}
+
+.special-paragraph {
+  background-color: yellow;
+}
+
+#sleeping-gif {
+  border-radius: 0%;
+  position: fixed;
+  bottom: 0;
+  margin: 0px;
+  padding: 0px;
+}
